@@ -1,6 +1,6 @@
 module github.com/mysteriumnetwork/node
 
-go 1.18
+go 1.24
 
 require (
 	github.com/BurntSushi/toml v0.4.1
@@ -8,10 +8,10 @@ require (
 	github.com/anmitsu/go-shlex v0.0.0-20200514113438-38f4b401e2be
 	github.com/arthurkiller/rollingwriter v1.1.3-0.20220211070658-c19a8e8b35be
 	github.com/asdine/storm/v3 v3.1.1
-	github.com/aws/aws-sdk-go-v2 v1.3.2
+	github.com/aws/aws-sdk-go-v2 v1.41.5
 	github.com/aws/aws-sdk-go-v2/config v1.1.6
 	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.1.3
-	github.com/aws/aws-sdk-go-v2/service/s3 v1.5.0
+	github.com/aws/aws-sdk-go-v2/service/s3 v1.97.3
 	github.com/cenkalti/backoff/v4 v4.0.0
 	github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
@@ -78,18 +78,24 @@ require (
 	github.com/StackExchange/wmi v0.0.0-20180116203802-5d049714c4a6 // indirect
 	github.com/andybalholm/brotli v1.0.0 // indirect
 	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d // indirect
+	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.7.8 // indirect
 	github.com/aws/aws-sdk-go-v2/credentials v1.1.6 // indirect
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.0.6 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.0.4 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.0.6 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.2.2 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/configsources v1.4.21 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.7.21 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/ini v1.8.6 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/v4a v1.4.22 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.13.7 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/checksum v1.9.13 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.13.21 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.19.21 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sso v1.1.5 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sts v1.3.0 // indirect
-	github.com/aws/smithy-go v1.3.1 // indirect
+	github.com/aws/smithy-go v1.24.2 // indirect
 	github.com/benbjohnson/clock v1.1.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
+	github.com/btcsuite/btcd v0.22.0-beta // indirect
 	github.com/btcsuite/btcd/btcec/v2 v2.1.3 // indirect
-	github.com/btcsuite/btcd/chaincfg/chainhash v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.1.1 // indirect
 	github.com/cheekybits/genny v1.0.0 // indirect
 	github.com/containerd/cgroups v1.0.1 // indirect
@@ -140,7 +146,6 @@ require (
 	github.com/jinzhu/gorm v1.9.2 // indirect
 	github.com/jinzhu/inflection v0.0.0-20180308033659-04140366298a // indirect
 	github.com/jinzhu/now v1.1.1 // indirect
-	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/josharian/native v0.0.0-20200817173448-b6b71def0850 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/kevinburke/ssh_config v1.1.0 // indirect
