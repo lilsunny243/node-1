@@ -1,6 +1,6 @@
 module github.com/mysteriumnetwork/node
 
-go 1.18
+go 1.24
 
 require (
 	github.com/BurntSushi/toml v0.4.1
@@ -88,8 +88,8 @@ require (
 	github.com/aws/smithy-go v1.3.1 // indirect
 	github.com/benbjohnson/clock v1.1.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
+	github.com/btcsuite/btcd v0.22.0-beta // indirect
 	github.com/btcsuite/btcd/btcec/v2 v2.1.3 // indirect
-	github.com/btcsuite/btcd/chaincfg/chainhash v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.1.1 // indirect
 	github.com/cheekybits/genny v1.0.0 // indirect
 	github.com/containerd/cgroups v1.0.1 // indirect
@@ -144,7 +144,7 @@ require (
 	github.com/josharian/native v0.0.0-20200817173448-b6b71def0850 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/kevinburke/ssh_config v1.1.0 // indirect
-	github.com/klauspost/compress v1.14.4 // indirect
+	github.com/klauspost/compress v1.18.7 // indirect
 	github.com/klauspost/cpuid v1.3.1 // indirect
 	github.com/klauspost/cpuid/v2 v2.0.9 // indirect
 	github.com/klauspost/pgzip v1.2.4 // indirect
